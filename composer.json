@@ -1,0 +1,11 @@
+{
+    "name": "nkyriakoulis/hello-world-package",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "nkyriakoulis\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
